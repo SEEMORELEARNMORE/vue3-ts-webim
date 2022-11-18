@@ -25,15 +25,20 @@
       "dom",
       "dom.iterable",
       "scripthost"
-    ]
+    ],
+    "suppressImplicitAnyIndexErrors": true
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
+    "tests/**/*.tsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "*.ts",
+    "*.tsx"
+, "src/components/Message.js", "src/hooks/websocket.ts", "src/components/Message.ts", "src/components/Message.ts", "src/store/index.js"  ],
   "exclude": [
     "node_modules"
   ]
