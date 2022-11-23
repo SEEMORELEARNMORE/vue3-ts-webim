@@ -22,7 +22,6 @@
 - 配置 vue.config.js:
   `devServer: { historyApiFallback: true, allowedHosts: 'all', } `
 - 如果还是无法用其他设备访问到，可以看一下自己电脑上是不是开了防火墙
-  ![图片alt](/src/assets/images/防火墙.png '图片title')
 
 ## 👟 运行
 
